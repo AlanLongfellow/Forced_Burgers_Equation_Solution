@@ -15,7 +15,16 @@ $$
 with velocity $u \left( \textbf{r}, t \right)$, force/pressure term $f \left(x, t \right)$, one-dimensional domain from $x = 0$ to $x = L$, admissible initial/boundary data, nonlinear damping $a$, and viscosity $b$, the method herein provides an explicit and closed-form construction of $u \left( x, t \right)$:
 
 $$
-\frac{d}{b}
+u(x,t) = \frac{a}{b} \frac{\partial}{\partial x} \left( \left( \frac{2b^3}{a^3} \int f(x,t) dx \left( \int^L_0 \frac{\ln^2 \left( \int^{x^\prime}_0 u_0(x^{\prime \prime}) dx^{\prime \prime} \right)}{L \int^{x^{\prime}}_{0} f_0(x^{\prime \prime}) dx^{\prime \prime}} \sum^{\infty}_{k=1} \sin \left( \frac{k \pi x}{L} \right) \sin \left( \frac{k \pi x^{\prime}}{L} \right) \exp \left( -\frac{bk^2 \pi^2 t}{L^2} \right) dx^{\prime} + \int^{t}_{0} \int^{L}_{0} \frac{2}{L} \sum^{\infty}_{k=1} \sin \left( \frac{k \pi x}{L} \right) \sin \left( \frac{k \pi x^\prime}{L} \right) \exp \left( -\frac{bk^2 \pi^2 (t-\tau)}{L^2} \right) dx^\prime d\tau \right. \right. \right.
+$$
+$$
+\left. \left. \left. + \int^{t}_{0} \frac{\pi b \ln^2 \left( u_l(\tau) \right)}{L^2 \int f(x,\tau) dx \lvert_{x=0}} \sum^\infty_{k=1} k \sin \left( \frac{k \pi x}{L} \right) \exp \left( -\frac{bk^2 \pi^2 (t-\tau)}{L^2} \right) d\tau - \int^t_0 \frac{\pi b \ln^2 \left( u_u(\tau) \right)}{L^2 \int f(x,\tau) dx |_{x=L}} \sum^\infty_{k=1} (-1)^k \sin \left( \frac{k \pi x}{L} \right) \exp \left( -\frac{bk^2 \pi^2 (t-\tau)}{L^2} \right) d\tau \right) \right)^{1/2} \right)
+$$
+$$
+\exp \left( \left( \frac{2b^3}{a^3} \int f(x,t) dx \left( \int^L_0 \frac{\ln^2 \left( \int^{x^\prime}_0 u_0(x^{\prime \prime}) dx^{\prime \prime} \right)}{L \int^{x^\prime}_0 f_0(x^{\prime \prime}) dx^{\prime \prime}} \sum^{\infty}_{k=1} \sin \left( \frac{k \pi x}{L} \right) \sin \left( \frac{k \pi x^\prime}{L} \right) \exp \left( -\frac{bk^2 \pi^2 t}{L^2} \right) dx^\prime + \int^{t}_{0} \int^{L}_{0} \frac{2}{L} \sum^{\infty}_{k=1} \sin \left( \frac{k \pi x}{L} \right) \sin \left( \frac{k \pi x^\prime}{L} \right) \exp \left( -\frac{bk^2 \pi^2 (t-\tau)}{L^2} \right) dx^\prime d\tau \right. \right. \right.
+$$
+$$
+\left. \left. \left. + \int^{t}_{0} \frac{\pi b \ln^2 \left( u_l(\tau) \right)}{L^2 \int f(x,\tau) dx \lvert_{x=0}} \sum^{\infty}_{k=1} k \sin \left( \frac{k \pi x}{L} \right) \exp \left( -\frac{bk^2 \pi^2 (t-\tau)}{L^2} \right) d\tau - \int^{t}_{0} \frac{\pi b \ln^2 \left( u_u(\tau) \right)}{L^2 \int f(x,\tau) dx \lvert_{x=L}} \sum^{\infty}_{k=1} (-1)^k \sin \left( \frac{k \pi x}{L} \right) \exp \left( -\frac{bk^2 \pi^2 (t-\tau)}{L^2} \right) d\tau \right) \right)^{1/2} \right)
 $$
 
 ## Engineering Value Proposition:
