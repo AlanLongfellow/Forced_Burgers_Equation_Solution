@@ -19,7 +19,7 @@ $$
 $$
 
 $$
-  \left. \left. \left. + \int^t_0 \frac{\pi b \ln^2 \left( u_l(\tau) \right)}{L^2 \int f(x,\tau) dx |_{x=0}} \sum^\infty_{k=1} k \sin \left( \frac{k \pi x}{L} \right) \exp \left( -\frac{bk^2 \pi^2 (t-\tau)}{L^2} \right) d\tau - \int^t_0 \frac{\pi b \ln^2 \left( u_u(\tau) \right)}{L^2 \int f(x,\tau) dx |_{x=L}} \sum^\infty_{k=1} (-1)^k \sin \left( \frac{k \pi x}{L} \right) \exp \left( -\frac{bk^2 \pi^2 (t-\tau)}{L^2} \right) d\tau \right) \right)^{1/2} \right) \nonumber
+  \left. \left. \left. + \int^t_0 \frac{\pi b \ln^2 \left( u_l(\tau) \right)}{L^2 \int f(x,\tau) dx \Bigg|_{x=0}} \sum^\infty_{k=1} k \sin \left( \frac{k \pi x}{L} \right) \exp \left( -\frac{bk^2 \pi^2 (t-\tau)}{L^2} \right) d\tau - \int^t_0 \frac{\pi b \ln^2 \left( u_u(\tau) \right)}{L^2 \int f(x,\tau) dx \Bigg|_{x=L}} \sum^\infty_{k=1} (-1)^k \sin \left( \frac{k \pi x}{L} \right) \exp \left( -\frac{bk^2 \pi^2 (t-\tau)}{L^2} \right) d\tau \right) \right)^{1/2} \right) \nonumber
 $$
 
 $$
@@ -27,7 +27,7 @@ $$
 $$
 
 $$
-  \left. \left. \left. + \int^t_0 \frac{\pi b \ln^2 \left( u_l(\tau) \right)}{L^2 \int f(x,\tau) dx |_{x=0}} \sum^\infty_{k=1} k \sin \left( \frac{k \pi x}{L} \right) \exp \left( -\frac{bk^2 \pi^2 (t-\tau)}{L^2} \right) d\tau - \int^t_0 \frac{\pi b \ln^2 \left( u_u(\tau) \right)}{L^2 \int f(x,\tau) dx |_{x=L}} \sum^\infty_{k=1} (-1)^k \sin \left( \frac{k \pi x}{L} \right) \exp \left( -\frac{bk^2 \pi^2 (t-\tau)}{L^2} \right) d\tau \right) \right)^{1/2} \right) \nonumber
+  \left. \left. \left. + \int^t_0 \frac{\pi b \ln^2 \left( u_l(\tau) \right)}{L^2 \int f(x,\tau) dx \Bigg|_{x=0}} \sum^\infty_{k=1} k \sin \left( \frac{k \pi x}{L} \right) \exp \left( -\frac{bk^2 \pi^2 (t-\tau)}{L^2} \right) d\tau - \int^t_0 \frac{\pi b \ln^2 \left( u_u(\tau) \right)}{L^2 \int f(x,\tau) dx \Bigg|_{x=L}} \sum^\infty_{k=1} (-1)^k \sin \left( \frac{k \pi x}{L} \right) \exp \left( -\frac{bk^2 \pi^2 (t-\tau)}{L^2} \right) d\tau \right) \right)^{1/2} \right) \nonumber
 $$
 
 ## Engineering Value Proposition:
