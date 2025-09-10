@@ -1,10 +1,10 @@
-# The General Solution to the Forced Viscous Burgers Equation
+# Solution to the Forced Viscous Burgers Equation
 
-- A research codebase and document set for the unique general solution of the forced viscous Burgers equation with arbitrary variable forcing developed by Alan C. Longfellow.
-- Developed as a corollary to the general Schrodinger equation solution (link: https://github.com/AlanLongfellow/Schrodinger_Solution)
-- This repository contains links to the formal paper(s) plus the proofs, supporting derivations, reproducible notebooks, reference implementations, and figure generation scripts.
+- A research codebase and document set for a general solution of the forced viscous Burgers equation with arbitrary variable forcing developed by Alan C. Longfellow.
+- Developed as a corollary to a similarly general solution to the Schrödinger equation (link: https://github.com/AlanLongfellow/Schrodinger_Solution)
+- This repository aims to link formal paper(s) to all relevant proofs, supporting derivations, reproducible notebooks, reference implementations, and figure generation scripts to support community and peer reviewers.
 
-## Claim (informal):
+## Claim (this V1 is deprecated as of 09/06/2025 due to Schrödinger revisions. Update to V2 pending formula validation):
 
 For the forced Burgers equation:
 
