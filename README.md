@@ -4,7 +4,7 @@
 - Developed as a corollary to a similarly general solution to the Schrödinger equation (link: https://github.com/AlanLongfellow/Schrodinger_Solution)
 - This repository aims to link formal paper(s) to all relevant proofs, supporting derivations, reproducible notebooks, reference implementations, and figure generation scripts to support community and peer reviewers.
 
-## Claim (this V1 is deprecated as of 09/06/2025 due to Schrödinger revisions. Update to V2 pending formula validation):
+## Claim (this v1.0 is deprecated as of 09/06/2025 due to Schrödinger revisions. Update to v1.1 pending formula validation):
 
 For the forced Burgers equation:
 
