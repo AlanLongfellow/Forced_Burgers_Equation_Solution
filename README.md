@@ -46,5 +46,6 @@ with velocity $u \left( \textbf{r}, t \right)$, force/pressure term $f \left(x, 
 - Author: Alan C. Longfellow
 - Institutional Email: alongfellow4918@floridapoly.edu
 - Personal Email: alan.longfellow.118@gmail.com
+- Phone: +1 (813) 365-8825
 - Website/Scholar/ORCID: https://linktr.ee/AlanCLongfellow
 - Issues: Use GitHub Issues for bugs and feature requests.
