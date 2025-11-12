@@ -1,6 +1,6 @@
 # Solution to the Forced Viscous Burgers Equation
 
-- A research codebase and document set for a general solution of the forced viscous Burgers equation with arbitrary variable forcing developed by Alan C. Longfellow.
+- A research codebase and document set for a general solution of the forced viscous Burgers equation with arbitrary variable forcing developed by Alan Clark Longfellow.
 - Developed as a corollary to a similarly general solution to the Schrödinger equation (link: https://github.com/AlanLongfellow/Schrodinger_Solution)
 - This repository aims to link formal paper(s) to all relevant proofs, supporting derivations, reproducible notebooks, reference implementations, and figure generation scripts to support community and peer reviewers.
 
@@ -28,7 +28,7 @@ with velocity $u \left( \textbf{r}, t \right)$, force/pressure term $f \left(x, 
 
 - /paper/ – Links to preprint(s)
 - /notes/ – Extended derivations, side lemmas, curated scratchpads
-- /src/ – Python implementation of the solution
+- /src/ – Python & GNU Octave implementations of the solution
 - /src/longfellow_forcedburgers/ – Library code
 - /src/cli/ – Command-line entry points
 - /examples/ – Minimal runnable examples
@@ -43,7 +43,7 @@ with velocity $u \left( \textbf{r}, t \right)$, force/pressure term $f \left(x, 
 
 ## Contact
 
-- Author: Alan C. Longfellow
+- Author: Alan Clark Longfellow
 - Institutional Email: alongfellow4918@floridapoly.edu
 - Personal Email: alan.longfellow.118@gmail.com
 - Phone: +1 (813) 365-8825
